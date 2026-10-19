@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website templates</title>
+  <meta name="description" content="Six free, responsive website templates: mosque, quilt shop, beauty spa, fintech, research lab and creative studio.">
+  <style>
+    :root { --bg: #f6f5f2; --ink: #1d1d1f; --muted: #6b6b70; --card: #fff; --line: #e7e5e0; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #141416; --ink: #f2f2f3; --muted: #a0a0a8; --card: #1f1f23; --line: #2c2c31; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--bg); color: var(--ink); }
+    main { max-width: 1200px; margin: 0 auto; padding: 56px 16px; }
+    h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 8px; }
+    .lead { color: var(--muted); margin: 0 0 40px; }
+    .grid { display: grid; gap: 22px; grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr)); }
+    a.card { display: block; border-radius: 18px; overflow: hidden; background: var(--card); border: 1px solid var(--line); text-decoration: none; color: inherit; transition: transform .25s, box-shadow .25s; }
+    a.card:hover { transform: translateY(-4px); box-shadow: 0 20px 40px -24px rgba(0, 0, 0, .4); }
+    a.card img { width: 100%; aspect-ratio: 900 / 527; object-fit: cover; display: block; border-bottom: 1px solid var(--line); }
+    .card div { padding: 16px 18px 20px; }
+    .card h2 { font-size: 1.15rem; margin: 0 0 4px; }
+    .card p { margin: 0; color: var(--muted); font-size: .94rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Website templates</h1>
+    <p class="lead">Six responsive templates with no dependencies. Open one, then edit its text, colours and images.</p>
+    <div class="grid">
+      <a class="card" href="https://abdelmoulabilel.github.io/mosque-website-template/"><img src="previews/mosque.webp" alt="Mosque template preview"><div><h2>Mosque · Al-Noor</h2><p>Live prayer times for any city, 24-hour prayer dial, Qibla, monthly timetable. English, French and Arabic.</p></div></a>
+      <a class="card" href="https://abdelmoulabilel.github.io/quilt-shop-template/"><img src="previews/sewing-studio.webp" alt="Quilt shop template preview"><div><h2>Quilt shop · Thread &amp; Thimble</h2><p>3D hero, needle-and-thread cursor, 3D push menu, flip cards, 3D quilt carousel.</p></div></a>
+      <a class="card" href="https://abdelmoulabilel.github.io/beauty-spa-template/"><img src="previews/beauty-spa.webp" alt="Beauty spa template preview"><div><h2>Beauty spa · Maison Éclat</h2><p>Elegant French facialist site with treatment menu, booking form and testimonials.</p></div></a>
+      <a class="card" href="https://abdelmoulabilel.github.io/fintech-company-template/"><img src="previews/fintech-corporate.webp" alt="Fintech template preview"><div><h2>Fintech · Vaultline Systems</h2><p>Banking-technology company: solutions, filterable product catalogue, factory, comparison table.</p></div></a>
+      <a class="card" href="https://abdelmoulabilel.github.io/research-lab-template/"><img src="previews/research-lab.webp" alt="Research lab template preview"><div><h2>Lab · Laboratoire Axiome</h2><p>Medical and university lab: analysis search, research topics, animated molecules.</p></div></a>
+      <a class="card" href="https://abdelmoulabilel.github.io/creative-agency-template/"><img src="previews/creative-agency.webp" alt="Creative studio template preview"><div><h2>Creative studio · Future Vision</h2><p>Dark agency site with intro loader, circular 3D menu, custom cursor and typing headline.</p></div></a>
+    </div>
+  </main>
+</body>
+</html>
