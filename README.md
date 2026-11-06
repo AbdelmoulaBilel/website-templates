@@ -5,6 +5,8 @@ Each one is a GitHub template repo: click **Use this template** to get your own 
 
 **Gallery:** https://abdelmoulabilel.github.io/website-templates/
 
+**Built by:** [Bilel Abdelmoula](https://bilelabdelmoula.dev), full-stack developer.
+
 | Repo | Demo |
 |---|---|
 | [mosque-website-template](https://github.com/AbdelmoulaBilel/mosque-website-template) | [live demo](https://abdelmoulabilel.github.io/mosque-website-template/) |
